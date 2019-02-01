@@ -27,9 +27,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              { "input": "src/styles.scss", "bundleName": "main" }
             ],
-            "scripts": [],
+            "scripts": [
+              "src/test-external-script.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
